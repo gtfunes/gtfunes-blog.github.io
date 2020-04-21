@@ -1,0 +1,59 @@
+####
+# OS X temporary files that should never be committed
+
+.DS_Store
+*.swp
+*.lock
+*.log
+*.env
+
+####
+# Windows temporary files
+
+thumbs.db
+desktop.ini
+
+####
+# Git mergetool backup
+
+*.orig
+
+####
+# SVN files
+
+.svn
+
+####
+# Sublime Text cache files
+
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+####
+# Sublime Text Projects & Plugins
+
+sftp-config.json
+sftp-config-alt.json
+*.sublime-project
+*.sublime-workspace
+
+####
+# Personal WakaTime project file that should never be committed
+
+.wakatime-project
+
+####
+# Gems
+
+.bundle/
+vendor/
+
+####
+# Jekyll
+
+_site
+.sass-cache
+.jekyll-metadata
