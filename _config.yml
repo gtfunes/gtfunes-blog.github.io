@@ -28,7 +28,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-minifier
 
 # Analytics
 google_analytics: UA-63528430-2
@@ -48,10 +47,6 @@ minima:
 
 # Permalinks
 permalink: /:year/:month/:day/:title/
-
-# Minifier
-jekyll-minifier:
-  exclude: 'feed.xml'
 
 # SASS settings
 sass:
