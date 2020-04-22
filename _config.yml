@@ -32,6 +32,10 @@ plugins:
 # Analytics
 google_analytics: UA-63528430-2
 
+# Disqus
+disqus:
+  shortname: blog-gtfunes
+
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
