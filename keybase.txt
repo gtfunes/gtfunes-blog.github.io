@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/gtfunes
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://blog.gtfunes.com
+  * I am gtfunes (https://keybase.io/gtfunes) on keybase.
+  * I have a public key with fingerprint 9EDD CF23 ECD5 94B1 3126  D18E 2316 393A F7CB 0DC7
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010184aafb649dde180b4a5db33486189180b7d73aa4adce2acc947b05d21b985f330a",
+      "fingerprint": "9eddcf23ecd594b13126d18e2316393af7cb0dc7",
+      "host": "keybase.io",
+      "key_id": "2316393af7cb0dc7",
+      "kid": "010184aafb649dde180b4a5db33486189180b7d73aa4adce2acc947b05d21b985f330a",
+      "uid": "a8ebda9be88e024eff655183cd54b519",
+      "username": "gtfunes"
+    },
+    "service": {
+      "hostname": "blog.gtfunes.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1588630081,
+  "expire_in": 157680000,
+  "prev": "c6a2df9585f08653a3cacb89b29658f4993054dbb17bf49e249d53ef9336482e",
+  "seqno": 49,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIkAnicrZJbSBVBGMfPSYu0jLKLUuHDihUktruzl5kjEmV4tDB6KCoLTzM7s8f1
+snvas8cLImRRLyaJglimQpFEROTTgYKyCxXmg5SoVEJmD1L2EgTRfVbsrcfmZZhv
+fv///L+PeZyREkgPfk3JvLcj5fx88PmD3kSg8nbnrmaBOLRJCDULNWxhY7WUxb1I
+jUWFkCBKogQVjE2iKYhSJkGRKFilBAAFahJEfkGnOsBYwdRgMjYMpOhEVKksEQRV
+EwARC/mCadlR5sZcy/a4LWKUGqYMmEFVpBAJSLJGJchkIGkAAWzqBhGpoXNhlRP3
+FTwcwXFWYDm8xg+RhXj/4P9z7sSCHYaMUIwIg5CJssJMU1NVCQIeXyGqhHwwzlwb
+1zFORz0zYbO40JIv8GK9ZTB/rn4jiwCpdaIFi1SB4dRxecx1PMdwavltlefF4iFf
+7TXFfLyBkciiUYRYNuWj5Ip65sYtxxZCEicNz/KdJRVCDYgilPIF1hizXBaxfELV
+NSjy5b/D6rmloWGZmkjljYpQUwEGBjYIRERGmgpNBSEgqgolRNIJPzGZT1EFzEQA
+aAqUmeC3dtJ2hJCCeE4c5Z5xK2pjL+EyoeXh8PHUQDA9sGzpEv+PBdLTVv/9eWRq
+eeBGXlZPZBA/u7yyeXbiwOSAuab71NWDEyVHQm/JzdeRM5lpu98Vf35i/+racVwd
+P/Bk7mFpqjDwfm/0d/9k6OWA3bul8/T+sb6d27K/zRTtwWa4rTzz+vjFw8txy6Wx
+iq6vg3Udm4uSyQ1TiRNlM8wsffOiTxfaVlV+mW4o66nIutYcCrTq4Y3lj2nHZPZI
+ZXVu5tP8lrR+UFjjhrsLXwbXrd1U9PODWl6ZMbK+sWj2ymhVxYBYP1KyLzmn5T3S
+b7av2Hp25tapzuFfuR9x9YNDDSxv/tiFE90/RsNDOV1lqWl3cnNmpU/Fye0Itze+
+uttz/+j3+YMFQVc8d701PDT9B5VNPPE=
+=vHwh
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gtfunes
+
+==================================================================
