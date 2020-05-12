@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Essential macOS apps"
+---
+
 Getting set up on a Windows/Linux/macOS system from scratch is not something that happens everyday, but when it does, it's always a pain remembering everything you had installed and configured. Everyone has their favorite or most useful applications they install first thing when you get a new system. This post is focused on the macOS version of my must have apps.
 
 ### Security

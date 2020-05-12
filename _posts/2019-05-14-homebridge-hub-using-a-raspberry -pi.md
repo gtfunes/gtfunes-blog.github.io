@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Homebridge hub using a Raspberry Pi"
+---
+
 I found out about Homebridge a few months ago and I was immediatly intrigued. Being able to integrate almost any device with Apple’s HomeKit sounded amazing.
 
 I started testing it out on Windows 10 and it was quite easy to setup and use. Once I tested it for a few days I thought it was time to step it up and run in on my Pi.
