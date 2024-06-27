@@ -30,7 +30,7 @@ plugins:
   - jekyll-seo-tag
 
 # Analytics
-google_analytics: UA-63528430-2
+google_analytics: G-0HGGBYQTE1
 
 # Disqus
 disqus:
