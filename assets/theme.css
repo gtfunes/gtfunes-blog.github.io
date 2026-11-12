@@ -1,0 +1,186 @@
+:root {
+  color-scheme: light;
+  --theme-background: #fdfdfd;
+  --theme-surface: #ffffff;
+  --theme-text: #111111;
+  --theme-muted: #666666;
+  --theme-border: #e8e8e8;
+  --theme-link: #2a7ae2;
+  --theme-link-hover: #1757a6;
+  --theme-code-background: #eef0f3;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --theme-background: #171717;
+  --theme-surface: #222222;
+  --theme-text: #e8e6e3;
+  --theme-muted: #b6b1ab;
+  --theme-border: #48433d;
+  --theme-link: #8ab4f8;
+  --theme-link-hover: #d2e3fc;
+  --theme-code-background: #2b2926;
+}
+
+body {
+  background-color: var(--theme-background);
+  color: var(--theme-text);
+}
+
+a,
+a:visited {
+  color: var(--theme-link);
+}
+
+a:hover {
+  color: var(--theme-link-hover);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--theme-link);
+  outline-offset: 2px;
+}
+
+.site-header,
+.site-footer,
+table,
+th,
+td {
+  border-color: var(--theme-border);
+}
+
+.site-header-content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-title,
+.site-title:visited {
+  color: var(--theme-text);
+}
+
+.post-meta,
+.footer-col-wrapper,
+.social-media-list,
+blockquote {
+  color: var(--theme-muted);
+}
+
+blockquote {
+  border-color: var(--theme-border);
+}
+
+pre,
+code,
+.highlighter-rouge .highlight {
+  background-color: var(--theme-code-background);
+  border-color: var(--theme-border);
+  color: var(--theme-text);
+}
+
+table {
+  color: var(--theme-text);
+}
+
+table th {
+  background-color: var(--theme-surface);
+}
+
+table tr:nth-child(even) {
+  background-color: var(--theme-surface);
+}
+
+.social-media-list .svg-icon {
+  fill: var(--theme-muted);
+}
+
+::selection {
+  background-color: var(--theme-link);
+  color: var(--theme-background);
+}
+
+html[data-theme="dark"] .highlight .c,
+html[data-theme="dark"] .highlight .cm,
+html[data-theme="dark"] .highlight .c1,
+html[data-theme="dark"] .highlight .cs,
+html[data-theme="dark"] .highlight .cp,
+html[data-theme="dark"] .highlight .gh,
+html[data-theme="dark"] .highlight .go,
+html[data-theme="dark"] .highlight .gp,
+html[data-theme="dark"] .highlight .nn {
+  color: var(--theme-muted);
+}
+
+html[data-theme="dark"] .highlight .err,
+html[data-theme="dark"] .highlight .gd,
+html[data-theme="dark"] .highlight .gd .x,
+html[data-theme="dark"] .highlight .gr,
+html[data-theme="dark"] .highlight .gt,
+html[data-theme="dark"] .highlight .ne,
+html[data-theme="dark"] .highlight .nf {
+  background-color: transparent;
+  color: #ffb4ab;
+}
+
+html[data-theme="dark"] .highlight .m,
+html[data-theme="dark"] .highlight .mf,
+html[data-theme="dark"] .highlight .mh,
+html[data-theme="dark"] .highlight .mi,
+html[data-theme="dark"] .highlight .mo,
+html[data-theme="dark"] .highlight .il,
+html[data-theme="dark"] .highlight .nb,
+html[data-theme="dark"] .highlight .kt {
+  color: #8ab4f8;
+}
+
+html[data-theme="dark"] .highlight .s,
+html[data-theme="dark"] .highlight .sb,
+html[data-theme="dark"] .highlight .sc,
+html[data-theme="dark"] .highlight .sd,
+html[data-theme="dark"] .highlight .se,
+html[data-theme="dark"] .highlight .sh,
+html[data-theme="dark"] .highlight .si,
+html[data-theme="dark"] .highlight .sr,
+html[data-theme="dark"] .highlight .s1,
+html[data-theme="dark"] .highlight .s2,
+html[data-theme="dark"] .highlight .ss {
+  color: #f28b82;
+}
+
+html[data-theme="dark"] .highlight .na,
+html[data-theme="dark"] .highlight .no,
+html[data-theme="dark"] .highlight .nv,
+html[data-theme="dark"] .highlight .vc,
+html[data-theme="dark"] .highlight .vg,
+html[data-theme="dark"] .highlight .vi {
+  color: #78d9ec;
+}
+
+html[data-theme="dark"] .highlight .nc,
+html[data-theme="dark"] .highlight .ni,
+html[data-theme="dark"] .highlight .nt {
+  color: #c58af9;
+}
+
+.theme-toggle {
+  background: transparent;
+  border: 1px solid var(--theme-border);
+  border-radius: 999px;
+  color: var(--theme-text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  height: 2.25rem;
+  line-height: 1;
+  width: 2.25rem;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  background-color: var(--theme-surface);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--theme-link);
+  outline-offset: 2px;
+}
