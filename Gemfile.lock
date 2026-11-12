@@ -241,6 +241,7 @@ GEM
     typhoeus (1.6.0)
       ethon (>= 0.18.0)
     unicode-display_width (1.8.0)
+    webrick (1.9.2)
 
 PLATFORMS
   ruby
@@ -249,6 +250,7 @@ DEPENDENCIES
   github-pages
   jekyll-seo-tag
   minima
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.4.22
