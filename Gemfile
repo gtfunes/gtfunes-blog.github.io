@@ -5,7 +5,6 @@ source "https://rubygems.org"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima"
-gem "webrick", "~> 1.8"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
