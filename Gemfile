@@ -8,6 +8,6 @@ gem "minima"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "github-pages"
+  gem "github-pages", "~> 232"
   gem "jekyll-seo-tag"
 end
