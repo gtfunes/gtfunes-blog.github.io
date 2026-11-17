@@ -1,0 +1,5 @@
+{%- if page.comments != false and jekyll.environment == "production" -%}
+<div id="disqus_thread"></div>
+<script src="{{ '/assets/disqus.js' | relative_url }}" data-disqus-url="{{ page.url | absolute_url | escape }}" data-disqus-shortname="{{ site.disqus.shortname | escape }}" defer></script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{%- endif -%}

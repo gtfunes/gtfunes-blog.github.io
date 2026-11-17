@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Xcode simulators clean-up"
+description: "How to recover disk space by removing old Xcode simulator runtimes, unavailable devices, device support files, and logs."
 ---
 
 Today I was checking the available disk space I had on my MacBook and noticed that it was more than `50%` full. That definitely didn't sound right so I used a disk space analyzer to check things out (I use DaisyDisk, you can download it [here](https://daisydiskapp.com/)).

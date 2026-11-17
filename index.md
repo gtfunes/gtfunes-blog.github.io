@@ -6,4 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+title: Cosmic Rays
 ---
+
+{{ site.description }} [About Gastón Funes](https://gtfunes.com/). [Site analytics and comments]({{ '/privacy/' | relative_url }}).
